@@ -1,6 +1,8 @@
 'use strict';
 
-import React, {Component, PropTypes} from 'react';
+import PropTypes from 'prop-types';
+
+import React, { Component } from 'react';
 import {
 	StyleSheet,
 	View, 
@@ -26,7 +28,7 @@ class PickerAndroidItem extends Component{
 		return null;
 	}
 
-};
+}
 
 export default class PickerAndroid extends Component{
 
@@ -253,7 +255,7 @@ export default class PickerAndroid extends Component{
 		);
 	}
 
-};
+}
 
 let width = Dimensions.get('window').width;
 let height = Dimensions.get('window').height;
